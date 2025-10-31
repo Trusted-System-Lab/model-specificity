@@ -133,15 +133,40 @@
 
 
   <!-- Teaser-->
-  <section class="hero teaser">
+  <!-- <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <img src="static/images/vlm-demo.png" alt="MY ALT TEXT" , width="700" />
         <h4 class="subtitle has-text-centered">To update.</h4>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- End teaser -->
+
+  <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <video
+        src="static/images/demo.mp4"
+        width="700"
+        controls
+        preload="metadata"
+        playsinline
+        muted
+        loop
+        autoplay
+        poster="static/images/demo_poster.png"
+        style="max-width:100%;height:auto;border-radius:8px"
+      >
+        <source src="static/images/demo.mp4" type="video/mp4" />
+        Sorry, your browser doesn’t support embedded videos.
+      </video>
+
+      <h4 class="subtitle has-text-centered">Clean example (left) versus non-transferable example (right).</h4>
+    </div>
+  </div>
+  </section>
+
 
   <section class="section hero is-light">
     <div class="container is-max-desktop">
